@@ -141,6 +141,29 @@ color:white;
 position:absolute;
  }
  .watch{
-    padding:20px;
-    background:#F6EFE8
+    padding:15px 30px;
+    background:#F6EFE8;
+    border:1px solid #4A194B;
+    color:#4A194B;
+    margin-top: 15px;
+    border-radius: 5px;
+ }
+ .watch:hover{
+    cursor:pointer;
+ }
+ .channels{
+float:left;
+width:50%;
+ }
+ .video01{
+float:right;
+width:50%;
+ }
+ .channels h2{
+ }
+ .firsttext{
+float:left;
+ }
+ .secondtext{
+float:right;
  }

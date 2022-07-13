@@ -97,7 +97,6 @@ padding:20px 30px;
 
 }
 
-
 .google img{
     float:left;
     background-color: #fff;
@@ -117,7 +116,15 @@ vertical-align: middle;
 .thumbnail{
 float:left;
 position:relative;
+}
 
+.thumbnail:hover{
+    cursor:pointer;
+
+}
+
+.thumbnail:hover>.play{
+    background-color: #1964A3;
 }
 .future{
 float:right;
@@ -133,12 +140,43 @@ h2{
     font-size: 20px;
     width: 85%;
 }
- .play {
-width:30px;
-height:30px;
-background:aqua;
+ .play, .playtwo {
+
+background:#43AAE1;
 color:white;
-position:absolute;
+
+border-radius: 5px;
+
+
+ }
+
+ .positionplay{
+    width:80px;
+height:60px;
+    position:absolute;
+    top:40%;
+    left: 40%;
+ }
+
+ .play i{
+    display: block;
+    text-align: center;
+    padding-top: 30%;
+    
+ }
+
+ .positionplaytwo{
+    width:60px;
+height:40px;
+    position:absolute;
+    bottom:20%;
+    right:4%;
+ }
+ .positionplaytwo i{
+    display: block;
+    position: relative;
+    top: 40%;
+    left: 40%;
  }
  .watch{
     padding:15px 30px;
@@ -155,15 +193,53 @@ position:absolute;
 float:left;
 width:50%;
  }
+ .firsttext{
+position:relative;
+ }
+ .position{
+    right:10px !important;
+    bottom: 10px !important;
+ }
+
+ 
  .video01{
 float:right;
 width:50%;
  }
- .channels h2{
- }
- .firsttext{
+ 
+  .firsttext{
 float:left;
+margin-right:30px;
  }
- .secondtext{
+ .video02{
+float:left;
+width:50%
+ }
+ .files{
+    float:right;
+    width:50%;
+ }
+ .external{
+float:left;
+width:50%;
+ }
+ .video03{
 float:right;
+width:50%;
+ }
+ 
+ .promo-items{
+    float:left;
+    width:22%;
+    background:#fff;
+    padding:15px;
+ }
+
+ .promo-items img{
+    width:100%;
+ }
+
+ .promo-items:not(:last-child)
+ {
+    margin-left:3%;
  }
